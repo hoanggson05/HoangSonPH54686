@@ -1,0 +1,40 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace QuanLiVeTaiQuay.UI
+{
+    public partial class FormPhongChieu : Form
+    {
+        public FormPhongChieu()
+        {
+            InitializeComponent();
+        }
+
+        private void btnXoa_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnLamMoi_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtTenPhim_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtMaPhim_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+    }
+}
