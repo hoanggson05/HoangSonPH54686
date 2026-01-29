@@ -1,5 +1,4 @@
-﻿using Microsoft.Data.SqlClient;
-using QuanLyBanVeRapPhim.Utils;
+﻿using QuanLyBanVeRapPhim.Utils;
 using System.Data;
 using System.Data.SqlClient;
 

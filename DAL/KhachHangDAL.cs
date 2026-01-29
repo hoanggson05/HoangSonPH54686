@@ -1,5 +1,4 @@
-﻿using Microsoft.Data.SqlClient;
-using QuanLyBanVeRapPhim.Utils;
+﻿using QuanLyBanVeRapPhim.Utils;
 using System.Data;
 using System.Data.SqlClient;
 
@@ -17,32 +16,33 @@ namespace QuanLyBanVeRapPhim.DAL
             return tb;
         }
 
-        public static int Insert(string hoTen, string sdt)
+        public static int Insert(string hoTen, string sdt, string email)
         {
             SqlCommand cmd = new SqlCommand(
-                @"INSERT INTO KhachHang(HoTen, SDT, TrangThai)
-                  VALUES(@hoTen, @sdt, 1)"
+                @"INSERT INTO KhachHang(HoTen, SDT,Email, TrangThai)
+                  VALUES(@hoTen, @sdt,@email, 1)"
             );
 
             cmd.Parameters.AddWithValue("@hoTen", hoTen);
             cmd.Parameters.AddWithValue("@sdt", sdt);
-
+            cmd.Parameters.AddWithValue("@email", email);
             return DBUtil.ExecuteNonQuery("", cmd);
         }
 
-        public static int Update(int maKH, string hoTen, string sdt)
+        public static int Update(int maKH, string hoTen, string sdt, string email)
         {
             SqlCommand cmd = new SqlCommand(
                 @"UPDATE KhachHang 
                   SET HoTen = @hoTen,
                       SDT = @sdt
+                      Email = @email
                   WHERE MaKH = @ma"
             );
 
             cmd.Parameters.AddWithValue("@hoTen", hoTen);
             cmd.Parameters.AddWithValue("@sdt", sdt);
             cmd.Parameters.AddWithValue("@ma", maKH);
-
+            cmd.Parameters.AddWithValue("@email", email);
             return DBUtil.ExecuteNonQuery("", cmd);
         }
 

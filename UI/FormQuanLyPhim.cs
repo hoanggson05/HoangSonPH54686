@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace QuanLiVeTaiQuay.UI
+namespace QuanLiVeXemPhimTaiQuay.UI
 {
     public partial class FormQuanLyPhim : Form
     {

@@ -1,4 +1,4 @@
-﻿namespace QuanLiVeTaiQuay.UI
+﻿namespace QuanLiVeXemPhimTaiQuay.UI
 {
     partial class test
     {
