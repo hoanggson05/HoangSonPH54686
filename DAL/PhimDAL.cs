@@ -1,6 +1,6 @@
-﻿using QuanLyBanVeRapPhim.Utils;
+﻿using Microsoft.Data.SqlClient;
+using QuanLyBanVeRapPhim.Utils;
 using System.Data;
-using System.Data.SqlClient;
 
 namespace QuanLyBanVeRapPhim.DAL
 {
@@ -65,6 +65,6 @@ namespace QuanLyBanVeRapPhim.DAL
 
             return DBUtil.ExecuteNonQuery("", cmd);
         }
-       
+
     }
 }

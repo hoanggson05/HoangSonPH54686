@@ -1,6 +1,6 @@
-﻿using QuanLiVeTaiQuay.DAO;
+﻿
+using QuanLiVeXemPhimTaiQuay.DAO;
 using QuanLyBanVeRapPhim.DAL;
-using System;
 using System.Data;
 
 namespace QuanLyBanVeRapPhim.BLL

@@ -1,7 +1,7 @@
 ﻿using QuanLyBanVeRapPhim.DAL;
 using System.Data;
 
-namespace QuanLyBanVeRapPhim.BLL
+namespace QuanLiVeTaiQuay.BLL
 {
     public static class KhachHangBLL
     {

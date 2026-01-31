@@ -1,8 +1,6 @@
-﻿using QuanLiVeXemPhimTaiQuay.UI;
-using System;
-using System.Windows.Forms;
+﻿using QuanLiVeTaiQuay.UI;
 
-namespace QuanLiVeXemPhimTaiQuay
+namespace QuanLiVeTaiQuay
 {
     internal static class Program
     {
@@ -14,7 +12,7 @@ namespace QuanLiVeXemPhimTaiQuay
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormMenu());
+            Application.Run(new FormMain());
         }
     }
 }

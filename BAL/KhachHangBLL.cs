@@ -10,20 +10,20 @@ namespace QuanLyBanVeRapPhim.BLL
             return KhachHangDAL.SelectAll();
         }
 
-        public static void Them(string hoTen, string sdt)
+        public static void Them(string hoTen, string sdt, string email)
         {
-            KhachHangDAL.Insert(hoTen, sdt);
+            KhachHangDAL.Insert(hoTen, sdt, email);
         }
 
-        public static void Sua(int maKH, string hoTen, string sdt)
+        public static void Sua(int maKH, string hoTen, string sdt, string email)
         {
-            KhachHangDAL.Update(maKH, hoTen, sdt);
+            KhachHangDAL.Update(maKH, hoTen, sdt, email);
         }
 
         public static void Xoa(int maKH)
         {
             KhachHangDAL.Delete(maKH);
         }
-       
+
     }
 }
