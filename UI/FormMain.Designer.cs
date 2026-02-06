@@ -30,7 +30,6 @@
 
         #endregion
 
-        private Panel pnlMain;
-        private Panel pnlMenu;
+      
     }
 }

@@ -14,6 +14,7 @@ namespace QuanLiVeTaiQuay.UI
         private DataGridView dgvVe;
         private TextBox txtSearch, txtMaVe, txtTenPhim, txtGiaBan;
         private PictureBox picPhim;
+        private DataGridView dgvXemVe;
 
         public FormBanVe()
         {

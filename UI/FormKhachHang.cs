@@ -53,7 +53,7 @@ namespace QuanLiVeTaiQuay.UI
 
             Label lblHang = new Label { Text = "Hạng TV:", Location = new Point(10, y), AutoSize = true };
             cboHang = new ComboBox { Location = new Point(110, y), Width = 180, DropDownStyle = ComboBoxStyle.DropDownList };
-            cboHang.Items.AddRange(new string[] { "Đồng", "Bạc", "Vàng","Kim Cương" });
+            cboHang.Items.AddRange(new string[] { "Đồng", "Bạc", "Vàng", "Kim Cương" });
             grbInput.Controls.Add(lblHang); grbInput.Controls.Add(cboHang);
             y += 50;
 
